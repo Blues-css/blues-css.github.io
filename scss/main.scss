@@ -1,0 +1,39 @@
+@import "blues";
+body{
+  background: $primary-bg;
+  overflow-x: hidden;
+}
+
+.intro{
+  height: auto;
+  img{
+    max-height: 300px;
+    padding-top: 2em;
+  }
+
+}
+.promo{
+  background: darken($primary-bg,10);
+  height: auto;
+  margin-bottom: 1.5em;
+  img{
+    padding-top: 2em;
+    max-height: 200px;
+  }
+  h3{
+    margin-top: 1em;
+  }
+}
+
+.heading{
+  margin: 15px 0;
+  color:$primary;
+}
+.colorbox{
+text-align: center;
+padding: 1em;
+}
+
+.submit-button{
+  padding-top:.8em; 
+}
