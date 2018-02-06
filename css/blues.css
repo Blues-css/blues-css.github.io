@@ -1063,92 +1063,7 @@ blockquote {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-body {
-  background: #1E242B;
-  overflow-x: hidden; }
-
-.intro {
-  height: auto;
-  margin-bottom: 1em; }
-  .intro img {
-    max-height: 300px;
-    padding-top: 2em; }
-
-.promo {
-  background: #090b0d;
-  height: auto;
-  margin-bottom: 1.5em;
-  padding-bottom: 1em; }
-  .promo img {
-    padding-top: 2em;
-    max-height: 200px; }
-  .promo h3 {
-    margin-top: 1em; }
-
-.github {
-  position: fixed;
-  z-index: 100;
-  height: 150px;
-  width: 150px;
-  top: 0;
-  right: 0;
-  border: 0; }
-
-.heading {
-  margin: 15px 0;
-  color: #14CC97; }
-  .heading p, .heading h4, .heading h5, .heading h3 {
-    font-weight: 300; }
-
-.colorbox {
-  text-align: center;
-  padding: 1em; }
-
-.gridbox {
-  text-align: center;
-  padding: 1em;
-  height: 20px;
-  background-color: #aaa;
-  overflow: hidden;
-  -webkit-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out; }
-  .gridbox:hover {
-    background-color: #14CC97; }
-
-.submit-button {
-  padding-top: .8em; }
-
-.hero-small {
-  background-color: #090b0d; }
-
-.imageRow img {
-  max-height: 200px; }
-
-.imageRow img.responsive {
-  max-height: 400px; }
-
-.pagination {
-  margin-bottom: 13em; }
-
-.alignBox {
-  height: 300px;
-  max-width: 500px;
-  position: relative;
-  background: #0f1216; }
-
-.smallBox {
-  text-align: center;
-  padding: 30px; }
-
-footer {
-  padding: 20px;
-  margin-top: 3em;
-  background: #0d1013; }
-  footer img {
-    max-height: 200px;
-    padding-top: 20px; }
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
       font-size: 15px; }
   .col-med-1 {
@@ -1283,10 +1198,12 @@ footer {
     margin-left: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; } }
-  @media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 1280px) {
     body {
       font-size: 16px; } }
-  @media screen and (min-width: 600px) {
+
+@media screen and (min-width: 600px) {
   .col-s-1 {
     -ms-flex-preferred-size: 8.33333%;
         flex-basis: 8.33333%;
@@ -1419,7 +1336,8 @@ footer {
     margin-left: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; } }
-  @media only screen and (min-width: 1280px) {
+
+@media only screen and (min-width: 1280px) {
   .col-large-1 {
     -ms-flex-preferred-size: 8.33333%;
         flex-basis: 8.33333%;
